@@ -12,5 +12,8 @@ git add .
 # Commit the changes with a message
 git commit -m "Fix character encoding issue in Lassie class"
 
+# Pull the latest changes from the remote branch
+git pull origin fix-branch --rebase
+
 # Push the changes to the remote repository on the new branch
 git push origin fix-branch
